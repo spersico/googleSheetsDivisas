@@ -48,6 +48,8 @@ Acá podés ver un ejemplo de una función andando:
     - Los datos salen de [Bluelytics](https://bluelytics.com.ar/#!), específicamente de [este endpoint](https://api.bluelytics.com.ar/v2/latest). Creo que esa API scrapea resultados de varios diarios (Ámbito, Cronista, La Nacion, y del BCRA) diariamente.
 
 ### Licencia y Soporte
-[MIT](https://github.com/spersico/googleSheetsDivisas/blob/main/LICENSE).
+La licencia es [MIT](https://github.com/spersico/googleSheetsDivisas/blob/main/LICENSE).
 
-Yo no tengo NADA que ver ni con [@qeet](https://github.com/qeet), ni con [Bluelytics](https://bluelytics.com.ar/#!/), estoy compartiendo esta modificación de mi script porque quería ver como era jugar con código de Google Sheets y me servía el script. Si se rompe, hacé un Issue o un PR y lo vemos, dale, pero no esperes mucho 😛.
+El 99% del trabajo lo hicieron [Bluelytics](https://bluelytics.com.ar/#!/) y [@qeet](https://github.com/qeet). 
+
+Yo no tengo NADA que ver con ellos, estoy compartiendo esta modificación de un script porque quería ver como era jugar con código de Google Sheets y me servía el script. Si se rompe, hacé un Issue o un PR y lo vemos, dale, pero no esperes mucho 😛.
