@@ -1,23 +1,23 @@
 # Divisas (Argentina) en Google Sheets
 Script para obtener los valores actuales de las divisas (Dolar y Euro), en los mercados oficial y blue, en una hoja de cálculo de Google Sheets.
 
-Super útil para llevar tus finanzas en Argentina!.
+Super útil para llevar tus finanzas personales en Argentina!.
 
 Basado en [este script](https://github.com/qeet/IMPORTJSONAPI) genial de [@qeet](https://github.com/qeet), y la genial API de [Bluelytics](https://bluelytics.com.ar/#!/)
 
-![](../Pictures/Screenshots/2022-09/msedge_GxRq5TX0qe.png)
+![msedge_GxRq5TX0qe](https://user-images.githubusercontent.com/10502605/189499875-d8bb767e-2aa8-4185-8549-3bfb8b5fbc37.png)
 ###  Instalación
 Para instalar esta función custom en una hoja de cálculo de Google Sheets, seguí los siguientes pasos:
 
 1. Abrí la hoja de cálculo en un navegador.
 2. Andá al menú Extensiones, item AppScript:
-![](../Pictures/Screenshots/2022-09/msedge_XK1h0RwqQ1.png)
+![msedge_XK1h0RwqQ1](https://user-images.githubusercontent.com/10502605/189499907-ce0d5c83-fdc7-447b-b7e1-fbad2e1d2500.png)
 
 Esto va a abrir un editor en una pestaña nueva, con un archivo llamado Código.gs, en un proyecto llamado Proyecto sin Título.
 
 3. Vas a tener que copiar y pegar el contenido de este archivo, reemplazando todo lo que tenga inicialmente el archivo Código.gs
 4. Ahora podés guardar el script haciendo click en el botón Guardar Proyecto.
-![](../Pictures/Screenshots/2022-09/msedge_BXn3A0C2aT.png)
+![msedge_BXn3A0C2aT](https://user-images.githubusercontent.com/10502605/189499922-46357d08-c610-49a7-9926-fd4a43995c94.png)
 
 5. Listo! Ahora podés cerrar la pestaña del editor, y podés continuar en tu hoja de cálculo.
 6. En la hoja de cálculo, podés usar en cualquier lado alguna de estas funciones:
@@ -26,10 +26,8 @@ Esto va a abrir un editor en una pestaña nueva, con un archivo llamado Código.
  - COTIZACION_DOLAR_OFICIAL
  - COTIZACION_EURO_OFICIAL
  
-Acá podés ver un ejemplo:
-
-![](../Pictures/Screenshots/2022-09/msedge_hwm66UePPh.png)
-
+Acá podés ver un ejemplo de una función andando:
+![msedge_hwm66UePPh](https://user-images.githubusercontent.com/10502605/189499925-14ce8469-3846-4b5a-84b6-373d339116bd.png)
 
 ### Preguntas Frecuentes (FAQ)
 
@@ -45,11 +43,9 @@ Acá podés ver un ejemplo:
 - De donde salen los datos?
     - Los datos salen de [Bluelytics](https://bluelytics.com.ar/#!), específicamente de [este endpoint](https://api.bluelytics.com.ar/v2/latest). Creo que esa API scrapea resultados de varios diarios (Ámbito, Cronista, La Nacion, y del BCRA) diariamente.
 
-
-
 ### Soporte
 
-Yo no tengo NADA que ver ni con [@qeet](https://github.com/qeet), ni con [Bluelytics](https://bluelytics.com.ar/#!/), estoy compartiendo este script porque lo uso personalmente, nada mas. 
+Yo no tengo NADA que ver ni con [@qeet](https://github.com/qeet), ni con [Bluelytics](https://bluelytics.com.ar/#!/), estoy compartiendo esta modificación de mi script porque quería ver como era jugar con código de Google Sheets. 
 
 Si se rompe, hacé un Issue o un PR y lo vemos, dale? :-)
 
